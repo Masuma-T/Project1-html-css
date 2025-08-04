@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up – Jiffy Listing</title>
+ <link href="style.css" rel="stylesheet"/>
+
+</head>
+<body class="flex-layout">
+  <header>
+    <div class="logobanner">
+        <a href="index.html">
+      <img src="images/logo.png" alt="Jiffy Listing Logo" class="logo" />
+      </a>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
+        <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="login-box">
+    <section class="login-form">
+      <h2>Sign Up</h2>
+      <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required />
+
+        <button type="submit">Sign Up</button>
+      </form>
+      <p class="signup-link">Already have an account? <a href="login.html">Log in</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="copyright">©2025 JiffyRealEstate Inc. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
